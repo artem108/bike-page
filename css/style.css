@@ -1,0 +1,148 @@
+* {
+  margin:0;
+  padding:0;
+}
+
+.wrapper {
+  width: 1215px;
+  height: 1065px;
+  font-family: Tahoma, Arial, sans-serif;
+  background-image: url('../img/background.jpg');
+}
+
+.header {
+  background: #074c89;
+}
+
+.header-menu {
+  position:relative;
+  overflow:hidden;
+}
+
+.header-menu li {
+    list-style:none;
+    float:right;
+}
+
+.header-menu li:after {
+ display: block;
+ content: ' ';
+ clear: both;
+ float: none;
+}
+
+.header-menu a {
+    display:block;
+    color:#60b5ed;
+    line-height:36px;
+    text-decoration:none;
+    padding:0 30px;
+}
+
+.header-menu a:hover {
+  color: #fff;
+  background-color: #4eabda;
+}
+
+.flag {
+  float: left;
+  display: block;
+}
+.flaf:after {
+ display: block;
+ content: ' ';
+ clear: both;
+ float: none;
+}
+
+.underline {
+  float: right;
+  text-decoration: underline;
+}
+
+.underline:after {
+ display: block;
+ content: ' ';
+ clear: both;
+ float: none;
+}
+
+.ikon {
+  height: 615px;
+  width: 560px;
+  background-color: rgba(00,00,00,0.5);
+  margin-top: 214px;
+  margin-left: 335px;
+}
+
+.facebook {
+  margin-top: 18px;
+  margin-left: 130px;
+  outline: none;
+}
+
+.line {
+  margin-top: 27px;
+}
+
+.cadastre {
+  padding-top: 25px;
+  margin-left:216px;
+}
+
+.ou {
+  padding-top: 30px;
+  margin-left: 130px;
+}
+
+.form {
+  position:relative;
+  overflow:hidden;
+  padding-top: 20px;
+  margin-left: 130px;
+}
+
+.form li {
+  list-style:none;
+}
+
+.input {
+  outline: none;
+  border: none;
+  margin-top: 19px;
+  width: 280px;
+  height: 30px;
+  color: #fff;
+  background-color: #0f0f0f;
+}
+
+.form input:hover {
+  background-color: #1b5288;
+  color: #fff;
+  box-shadow:-webkit-box-shadow: 0px 0px 17px 1px rgba(104,155,204,1);
+  -moz-box-shadow: 0px 0px 17px 1px rgba(104,155,204,1);
+  box-shadow: 0px 0px 17px 1px rgba(104,155,204,1);
+}
+
+.checkbox {
+  margin-left: 130px;
+  padding-top: 20px;
+  width: 235;
+  color: #cccccc;
+  font-size: 12px;
+}
+
+.create {
+  text-align: center;
+  padding-top: 20px;
+}
+
+p {
+  text-align: center;
+  font-size: 12px;
+  color: #cccccc;
+}
+
+.last {
+padding-top: 20px;
+}
